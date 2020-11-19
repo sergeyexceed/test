@@ -111,7 +111,7 @@ class LoginComponent extends Component {
               padding: "30px",
             }}
           >
-            {projects.data.length && (
+            {projects.data && projects.data.length && (
               <Grid item xs={12} md={6}>
                 <Typography variant="h6" className={classes.title}>
                   Projects
